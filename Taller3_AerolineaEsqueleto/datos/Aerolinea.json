@@ -1,0 +1,75 @@
+{
+	"vuelos": [
+		{
+			"ruta": "4568",
+            "fecha": "2024-11-05",
+			"avion": "EC-25"
+
+        }
+		{
+			"ruta": "7364",
+            "fecha": "2024-06-15",
+			"avion": "LT-45"
+
+        }
+		{
+			"ruta": "3789",
+            "fecha": "2024-02-20",
+			"avion": "ML-20"
+
+        }
+	],
+	
+	"aeropuertos": [
+		{
+			"codigo": "BOG",
+			"nombre": "El Dorado",
+           "latitud": "3.73917",
+            "longitud": "73.8353",
+			"nombre ciudad":"Bogota"
+        },
+        {
+            "codigo": "MDE",
+            "nombre": "Jose Maria Cordoba",
+            "ciudad": "Medellin",
+			"latitud": "6.16640765",
+			"longitud": "75.42394",
+		}
+	],
+	
+	"aviones":[
+		{
+			"codigo": "4558",
+            "capacidad": 100,
+			
+		}
+{
+			"codigo": "0938",
+            "capacidad": 130,
+			
+		}
+{
+			"codigo": "2736",
+            "capacidad": 240,
+			
+		}
+				
+	],
+	"rutas": [
+        {
+            "codigo": "4558",
+            "origen": "BOG",
+            "destino": "MDE",
+            "hora de llegada": "0129",
+			"hora de salida": "0239"
+        },
+        {
+            "codigo": "0938",
+            "origen": "MDE",
+            "destino": "BOG",
+            "hora de llegada": "1328",
+			"hora de salida": "1509"
+	
+    ]
+	
+}
